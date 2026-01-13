@@ -1,0 +1,7905 @@
+[
+  {
+    "real_name": "Addictive_Drums_2_x64.dll",
+    "alias": "addictiv drummer",
+    "manufacturer": "",
+    "tags": "instrument comp modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "DD_Channel.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "ChannelStrip",
+    "deleted": false
+  },
+  {
+    "real_name": "DPinga_Timbal.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu delay",
+    "deleted": false
+  },
+  {
+    "real_name": "DSK_Overture.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": true
+  },
+  {
+    "real_name": "EVM_Bassline_v1_3.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": true
+  },
+  {
+    "real_name": "EZdrummer.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "EZdrummer_3.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "FabFilter_One.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": true
+  },
+  {
+    "real_name": "FabFilter_Twin_3.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "JS: 10-Band Splitter (1 band per octave)",
+    "alias": "",
+    "manufacturer": "1 band per octave",
+    "tags": "inconnu",
+    "deleted": true
+  },
+  {
+    "real_name": "JS: 1175 Compressor",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "JS: 16-Channel-Joiner pour mastering",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "JS: 32 Band Mixer",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "JS: 3x3 EQ",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "JS: 4x4 EQ",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "JS: 50 Hz Kicker",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "JS: 8 send",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "KV_Element.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "Kontakt.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "Load",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": true
+  },
+  {
+    "real_name": "MT_PowerDrumKit.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "Microsoft.Web.WebView2.Core.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "Nexus.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "PG_8X.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "REX_Shared_Library_64.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "Raspier.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "SatsonCompressor_64bit.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "SatsonEQ_64bit.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "SatsonGain_64bit.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "Sitala.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "Superior_Drummer.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VSCO2_Orchestra.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: A-Console (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ADA Flanger (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ADA STD-1 Stereo Tapped Delay (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ADPTR Hype (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ADPTR MetricAB (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ADPTR Sculpt (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ADPTR StreamLiner (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: AMEK EQ 200 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: AMEK EQ 250 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: AMEK Mastering Compressor (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-2500 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-2500 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-550A Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-550A Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-550B Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-550B Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-560 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: API-560 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Chambers Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Chambers Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Chambers Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road EMI TG12345 Ch Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road EMI TG12345 Ch Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road EMI TG12345 Channel Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road EMI TG12345 Channel Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road J37 Tape Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road J37 Tape Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Plates Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Plates Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Plates Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road REDD.17 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road REDD.17 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road REDD.37.51 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road REDD.37.51 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road RS124 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road RS124 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road RS56 Passive EQ Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road RS56 Passive EQ Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT Live Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT2V Live Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT2V Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT2V Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Reel ADT2V Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Saturator Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Saturator Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Studio 3 5.1/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Studio 3 7.1/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Studio 3 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road TG Mastering Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road TG Mastering Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road TG Mastering Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road TG Mastering Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road The King's Microphones Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road The King's Microphones Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Vinyl Light Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Vinyl Light Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Vinyl Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Abbey Road Vinyl Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Acme Opticom XLA-3 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: AllRADecoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Ampeg B15N (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Ampeg SVT3Pro (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Ampeg SVTVR (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Ampeg SVTVR Classic (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Ampeg V4B (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Aphex Vintage Exciter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Aphex Vintage Exciter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: AudioTrack Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: AudioTrack Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: B360 5.0/Quad (Waves) (5->4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: B360 5.1/Quad (Waves) (6->4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: B360 7.1/Quad (Waves) (8->4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: B360 AmbiX-FuMa Quad (Waves) (4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: B360 FuMa-AmbiX Quad (Waves) (4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: B360 Mono/Quad (Waves) (1->4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: B360 Stereo/Quad (Waves) (2->4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Bass Rider Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Bass Rider Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Bass Rider Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Bass Rider Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Berzerk Distortion Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Berzerk Distortion Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Bettermaker BM60 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Bettermaker Bus Compressor DSP (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Bettermaker EQ232D (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: BeyerdynamicVS (Beyerdynamic) (8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: BinauralDecoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Black Box Analog Design HG-2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Brauer Motion Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Brauer Motion Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Britson Buss (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Britson Channel (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Burnley 73 (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Butch Vig Vocals Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Butch Vig Vocals Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 comp Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 comp Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 comp-gate Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp gate",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 comp-gate Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp gate",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 comp-sc Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 comp-sc Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 gate Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "gate",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C1 gate Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "gate",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C360 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C360 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C4 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C4 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C6 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C6 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C6-SideChain Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: C6-SideChain Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Bass Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Bass Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Drums Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Drums Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA EchoSphere Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA EchoSphere Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Effects Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Effects Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Epic Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Epic Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Guitars Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Guitars Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA MixDown Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA MixDown Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA MixHub Lite Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA MixHub Lite Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA MixHub Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA MixHub Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Nx Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Unplugged Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Unplugged Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Vocals Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA Vocals Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA-2A Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA-2A Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA-3A Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA-3A Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA-76 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CLA-76 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CRTIV Reverb (Voxengo)",
+    "alias": "",
+    "manufacturer": "Voxengo",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Center Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Chandler GAV19T (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx - DeReverb Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx - DeReverb Pro Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx - DeReverb Pro Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx - DeReverb Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx Pro Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx Pro Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Clarity Vx Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: CoordinateConverter (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Crystallizer (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Curves Equator Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Curves Equator Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Curves Equator Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Curves Equator Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DPR-402 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DPR-402 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DS Tantra 2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural DownMix 5.1 to 2.0 5.1/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural DownMix 5.1 to St 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural DownMix 7.1 to 2.0 7.1/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural DownMix 7.1 to 5.1 7.1/5.1 (Waves) (8->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural DownMix 7.1 to 5.1+2 7.1 (Waves) (8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural DownMix 7.1 to St 7.1 (Waves) (8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural Mono2Stereo Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural UpMix 5.1/7.1 (Waves) (6->8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural UpMix Stereo/5.1 (Waves) (2->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural UpMix Stereo/7.1 (Waves) (2->8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DTS Neural UpMix Stereo/Quad (Waves) (2->4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dangerous BAX EQ Master (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dangerous BAX EQ Mix (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DeBreath Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DeEsser Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DeEsser Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Decapitator (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Devil-Loc (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Devil-Loc Deluxe (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Diezel Herbert (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Diezel VH4 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DirectionalCompressor (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DirectivityShaper (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DistanceCompensator (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dolby Atmos Beam (Fiedler Audio)",
+    "alias": "",
+    "manufacturer": "Fiedler Audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dolby Atmos Composer (Fiedler Audio)",
+    "alias": "",
+    "manufacturer": "Fiedler Audio",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doppler Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doppler Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dorrough Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dorrough Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dorrough360 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Dorrough360 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doubler2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doubler2 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doubler2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doubler4 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doubler4 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Doubler4 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DrumReplacer (UVI)",
+    "alias": "",
+    "manufacturer": "UVI",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DualDelay (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: DynAssist (NoiseWorks)",
+    "alias": "",
+    "manufacturer": "NoiseWorks",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer BA Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer BA Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer DR Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer DR Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer FX Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer FX Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer GT Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer GT Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer VC Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EKramer VC Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-D5 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-D5 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-F2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-F2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-Generator Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-Generator Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-Q4 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EMO-Q4 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ENGL E646 VS (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ENGL E765 RT (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ENGL Savage 120 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EchoBoy (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EffectRack (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Element FX (Kushview) (34ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EnergyVisualizer (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Enigma Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Enigma Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: EpicVerb (x86) (bootsy)",
+    "alias": "",
+    "manufacturer": "bootsy",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: F6 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: F6 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: F6-RTA Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: F6-RTA Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: FdnReverb (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Feedback Hunter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Feedback Hunter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: FilterFreak1 (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: FilterFreak2 (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Friedman BE100 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Friedman Buxom Betty (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Friedman DS40 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Fuchs Overdrive Supreme 50 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Fuchs Train II (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GEQ Classic Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GEQ Classic Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GEQ Modern Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GEQ Modern Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Amp 2Cab Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Amp Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Amp Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Amp Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Solo Tool Rack Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Solo Tool Rack Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 2 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 4 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 4 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 4 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 6 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 6 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Stomp 6 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Tool Rack Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Tool Rack Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GTR Tuner Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW MixCentric Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW MixCentric Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW PianoCentric Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW PianoCentric Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW PianoCentric Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW ToneCentric Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW ToneCentric Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW VoiceCentric Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW VoiceCentric Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GW VoiceCentric Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Gallien Krueger 800RB (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: GranularEncoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Guitar Rig 5 (Native Instruments GmbH)",
+    "alias": "",
+    "manufacturer": "Native Instruments GmbH",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Comp Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Comp Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Delay Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Delay Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Delay Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-EQ Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-EQ Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-EQ-Light Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-EQ-Light Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb Mono/5.0 (Waves) (1->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb Mono/5.1 (Waves) (1->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb Stereo/5.1 (Waves) (2->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long Mono/5.0 (Waves) (1->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long Mono/5.1 (Waves) (1->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: H-Reverb long Stereo/5.1 (Waves) (2->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: HY-Lofi2 (HY-Plugins)",
+    "alias": "",
+    "manufacturer": "HY-Plugins",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: HY-Lofi2 (x86) (HY-Plugins)",
+    "alias": "",
+    "manufacturer": "HY-Plugins",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Harris Doyle Natalus DSCEQ (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Helix Native (Line 6)",
+    "alias": "",
+    "manufacturer": "Line 6",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Honeycomb Bass OD (Canvas Audio)",
+    "alias": "",
+    "manufacturer": "Canvas Audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IDR360 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IDR360 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IDX Intelligent Dynamics Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IDX Intelligent Dynamics Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IDX LIVE Intelligent Dynamics Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IDX LIVE Intelligent Dynamics Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IMPusher Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IMPusher Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR-L Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR-L Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR-L efficient Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR-L full Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR1 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR1 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR1 efficient Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR1 full Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 discrete Mono/5.0 (Waves) (1->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 eff discrete 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 eff discrete 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 eff discrete Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 eff s.field Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 sound field 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 sound field 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 sound field Mono/5.0 (Waves) (1->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IR360 sound field Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IRLive Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IRLive Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: IRLive Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase LT Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase LT Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase LT Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase LT Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: InPhase Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Bass Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Bass Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Bass Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Cymb-Perc Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Cymb-Perc Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Drums Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Drums Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Drums Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Guitars Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Guitars Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Strings-Keys Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Strings-Keys Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Vocals Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: JJP-Vocals Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kaleidoscopes Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kaleidoscopes Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kaleidoscopes Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Key Detector Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Key Detector Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kiive Tape Face (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kiive XTComp (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kiive Xtressor (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Knif Audio Soma (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kramer HLS Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kramer HLS Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kramer PIE Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kramer PIE Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kramer Tape Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Kramer Tape Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L1 limiter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L1 limiter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L1+ Ultramaximizer Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L2-SC Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L2-SC Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3 MultiMaximizer Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3 MultiMaximizer Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3 UltraMaximizer Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3 UltraMaximizer Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3-LL Multi Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3-LL Multi Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3-LL Ultra Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L3-LL Ultra Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L316 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L316 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L360 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: L360 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LF Max Punch (Voxengo)",
+    "alias": "",
+    "manufacturer": "Voxengo",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LF Max Punch (Voxengo) (8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LFE360 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LFE360 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LTL Chop Shop EQ (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LTL SILVER BULLET mk2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LinEQ Broadband Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LinEQ Broadband Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LinEQ Lowband Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LinEQ Lowband Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LinMB Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LinMB Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 254E (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 354E (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 50 Buss (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 50 Channel (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 69 Buss (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 69 Channel (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 6X-500 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 7X-500 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 80 Bus (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 80 Channel (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell 902 De-esser (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell ChannelX (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell MBC (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell PEX-500 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell SBC (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lindell TE-100 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Little AlterBoy (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Little MicroShift (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Little PrimalTap (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Little Radiator (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LoAir 5.0/5.1 (Waves) (5->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LoAir 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LoAir Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: LoAir Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lofi Space Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lofi Space Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Lofi Space Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Looptrotter SA2RATE2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: M360 Manager 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: M360 Manager 5.0/5.1 (Waves) (5->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: M360 Manager 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: M360 Mixdown 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: M360 Mixdown 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MAGC (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MAnalyzer (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MAutoPitch (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MAutopan (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MBandPass (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MBitFun (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MCCGenerator (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MChannelMatrix (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MCharmVerb (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MComb (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MCompressor (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MConvolutionEZ (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MDMX Fuzz Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MDMX Fuzz Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MDMX OverDrive Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MDMX OverDrive Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MDMX Screamer Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MDMX Screamer Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MEqualizer (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MFlanger (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MFreeformPhase (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MFreqShifter (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MLoudnessAnalyzer (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MMetronome (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MNoiseGenerator (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MNotepad (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MOscillator (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MOscilloscope (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MPhaser (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MRatio (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MRatioMB (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MRecorder (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MRingModulator (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MSaturator (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MSpectralPan (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MStereoExpander (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "gate",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MStereoScope (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MTremolo (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MTuner (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MUtility (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MV2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MV2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MV360 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MV360 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MVibrato (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MWaveFolder (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MWaveShaper (MeldaProduction)",
+    "alias": "",
+    "manufacturer": "MeldaProduction",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maag EQ2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maag EQ4 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maag MAGNUM-K (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma BB Tubes Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma BB Tubes Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma Channel Strip Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma Channel Strip Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma Lil Tube Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma Lil Tube Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma Springs Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma Springs Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Magma Springs Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Mammoth (Aurora DSP)",
+    "alias": "",
+    "manufacturer": "Aurora DSP",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Delay Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Delay Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Distortion Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Distortion Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM EQ Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM EQ Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Reverb Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Reverb Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Reverb Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Tone Shaper Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM Tone Shaper Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM TripleD Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MannyM TripleD Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati ACG Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati ACG Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati B72 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati B72 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati B72 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati DRM Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati DRM Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati GRP Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati GRP Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati GTi Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati GTi Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati HMX Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati HMX Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati VX1 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Maserati VX1 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MatrixMultiplier (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MaxxBass Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MaxxBass Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MaxxVolume Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MaxxVolume Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MetaFilter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MetaFilter Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MetaFilter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MetaFlanger Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MetaFlanger Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MetaFlanger Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Micro (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MicroShift (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Millennia NSEQ-2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Millennia TCL-2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Mixland Vac Attack (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Mixup (Mixup.audio)",
+    "alias": "",
+    "manufacturer": "Mixup.audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MondoMod Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MondoMod Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MondoMod Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Morphoder Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Morphoder Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Morphoder Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MultiBandCompressor (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MultiEQ (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MultiEncoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MultiMod Rack Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MultiMod Rack Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: MultiMod Rack Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NA 808 (Nembrini Audio)",
+    "alias": "",
+    "manufacturer": "Nembrini Audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NA Black (Nembrini Audio)",
+    "alias": "",
+    "manufacturer": "Nembrini Audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NA Clon Minotaur (Nembrini Audio)",
+    "alias": "",
+    "manufacturer": "Nembrini Audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NC_7170_Lead (NickCrowLab)",
+    "alias": "",
+    "manufacturer": "NickCrowLab",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NC_8505_Lead (NickCrowLab)",
+    "alias": "",
+    "manufacturer": "NickCrowLab",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NEOLD BIG AL (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NEOLD U17 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NEOLD U2A (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NEOLD V76U73 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NEOLD WARBLE (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NEOLD WUNDERLICH (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NLS Buss Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NLS Buss Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NLS Channel Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NLS Channel Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NS1 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NS1 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX 5.0/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX 5.1/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX 7.1 (Waves) (8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX 7.1/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX Ambisonics Quad (Waves) (4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: NX Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Noveltech Character (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Noveltech Vocal Enhancer (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Nx Ambisonics Quad/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Nx Germano Studios 5.1/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Nx Germano Studios Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Nx Ocean Way Nashville Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OVox Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OVox Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OmniCompressor (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Brighter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Brighter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Driver Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Driver Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Filter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Filter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Louder Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Louder Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Phatter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Phatter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Pressure Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Pressure Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Pumper Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Pumper Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Wetter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Wetter Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: OneKnob Wetter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PAZ- Analyzer Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PAZ- Frequency Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PAZ- Frequency Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PAZ- Meters Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PAZ- Meters Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PAZ- Position Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PHA-979 (Voxengo)",
+    "alias": "",
+    "manufacturer": "Voxengo",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PHA-979 (Voxengo) (4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PRS Archon Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PRS Archon Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PRS Dallas Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PRS Dallas Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PRS V9 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PRS V9 Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 Split Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 Split Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 Spread Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 Spread Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 Spread(10) Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 Spread(10) Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 XSplit Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PS22 XSplit Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PSE Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PSE Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PanMan (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PhaseMistress (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PlaylistRider Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PlaylistRider Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PrimalTap (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro Audio DSP DSM V3 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro-C 2 (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro-DS (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro-G (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro-L 2 (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro-MB (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro-Q 3 (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Pro-R (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ProbeDecoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PuigChild 660 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PuigChild 670 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PuigTec EQP1A Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PuigTec EQP1A Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PuigTec MEQ5 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: PuigTec MEQ5 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Purple Audio MC 77 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q-Capture Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q-Clone Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q-Clone Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q1 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q1 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q10 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q10 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q3 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q3 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q4 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q4 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q6 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q6 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q8 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Q8 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: R360 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: R360 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: R360 Mono/5.0 (Waves) (1->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: R360 Mono/5.1 (Waves) (1->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: R360 Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: R360 Stereo/5.1 (Waves) (2->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RBass Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RBass Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RChannel Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RChannel Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RChannel Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RCompressor Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RCompressor Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RDeEsser Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RDeEsser Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: REQ 2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: REQ 2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: REQ 4 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: REQ 4 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: REQ 6 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: REQ 6 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RVerb Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RVerb Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RVox Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RVox Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Radiator (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReStem (WaveMachine Labs) (2->16ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaCast (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaComp (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaControlMIDI (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaDelay (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaEQ (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaFir (FFT EQ+Dynamics Processor) (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "eq comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaGate (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "gate",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaInsert (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaLimit (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaNINJAM (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaPitch (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaStream (Cockos) (8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaSurround (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaSurroundPan (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaTune (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaVerb (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaVerbate (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaVocode (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaVoice (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ReaXcomp (Cockos)",
+    "alias": "",
+    "manufacturer": "Cockos",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Realphones (dSONIQ)",
+    "alias": "",
+    "manufacturer": "dSONIQ",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Renaissance Axx Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Renaissance Axx Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Retro Fi Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Retro Fi Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Retro Fi Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: RoomEncoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S1 Imager Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S1 MS Matrix Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S1 Shuffler Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Imager 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Imager 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Imager Mono/5.0 (Waves) (1->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Imager Mono/5.1 (Waves) (1->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Imager Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Imager Stereo/5.1 (Waves) (2->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Panner Mono/5.0 (Waves) (1->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Panner Mono/5.1 (Waves) (1->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Panner Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: S360 Panner Stereo/5.1 (Waves) (2->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL Attacker Plus (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL De-Esser (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL De-Esser Dual-Band (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL De-Verb Plus (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL DrumXchanger (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL EQ Ranger Plus (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL Free Ranger (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL HawkEye (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL IRON (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL Mo-Verb Plus (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL PQ (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL Passeq (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL Passeq Single (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL Transient Designer Plus (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL TwinTube (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SPL Vitalizer MK2-T (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSL EV2 Channel Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSL EV2 Channel Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLChannel Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLChannel Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLComp Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLComp Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLEQ Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLEQ Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLGChannel Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SSLGChannel Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Saphira Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Saphira Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Satson Buss (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Satson CS (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Satson Channel (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Saturn 2 (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SceneRotator (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Scheps 73 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Scheps 73 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Scheps Omni Channel 2 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Scheps Omni Channel 2 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Scheps Parallel Particles Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Scheps Parallel Particles Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Schoeps Double MS (Plugin Alliance) (3->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Schoeps Mono Upmix 1to2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Schoeps Mono Upmix 1to3 (Plugin Alliance) (1->3ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Shadow Hills Class A Mastering Comp (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Shadow Hills Mastering Compressor (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Sibilance Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Sibilance Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Sibilance-Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Sibilance-Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Silencer (Black Salt Audio)",
+    "alias": "",
+    "manufacturer": "Black Salt Audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Silk Vocal Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Silk Vocal Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Silk Vocal Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Silk Vocal Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SimpleDecoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Simplon (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Smack Attack Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Smack Attack Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SoundID Reference Plugin (Sonarworks) (16ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SoundID Reference Plugin VST (Sonarworks) (16ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SoundShifter Pitch Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SoundShifter Pitch Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Soundly Monitor (Soundly)",
+    "alias": "",
+    "manufacturer": "Soundly",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Soundly Place it (Soundly)",
+    "alias": "",
+    "manufacturer": "Soundly",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Soundly Shape it (Soundly)",
+    "alias": "",
+    "manufacturer": "Soundly",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Space Rider Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Space Rider Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Speaker (AudioThing)",
+    "alias": "",
+    "manufacturer": "AudioThing",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Spherix Compressor 7.1.2 (Waves) (10ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Spherix Compressor 7.1.4 (Waves) (12ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Spherix Limiter 7.1.2 (Waves) (10ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Spherix Limiter 7.1.4 (Waves) (12ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: StereoEncoder (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: StudioVerse Audio Effects Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: StudioVerse Audio Effects Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: StudioVerse Audio Effects Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Sub Align Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Sub Align Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Submarine Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Submarine Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Suhr PT100 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Suhr SE100 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SuperTap 2-Taps Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SuperTap 2-Taps Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SuperTap 2-Taps Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SuperTap 6-Taps Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SuperTap 6-Taps Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: SuperTap 6-Taps Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Sync Vx (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TBTECH Cenozoix Compressor (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TBTECH Kirchhoff-EQ (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TDR Nova (Tokyo Dawn Labs)",
+    "alias": "",
+    "manufacturer": "Tokyo Dawn Labs",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: THE OVEN (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: THX Spatial Creator (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TOMO Audiolabs LISA (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TRACT LinPhase Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TRACT LinPhase Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TRACT Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TRACT Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Timeless 3 (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: ToolBox (IEM) (64ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Torque Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Torque Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Torque-Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Torque-Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TransX Multi Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TransX Multi Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TransX Wide Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TransX Wide Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Tremolator (SoundToys)",
+    "alias": "",
+    "manufacturer": "SoundToys",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Trigger 2 (Steven Slate)",
+    "alias": "",
+    "manufacturer": "Steven Slate",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TrueVerb Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TrueVerb Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TrueVerb Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TuCo (Sonimus)",
+    "alias": "",
+    "manufacturer": "Sonimus",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Tube Amp (Voxengo)",
+    "alias": "",
+    "manufacturer": "Voxengo",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Tube Amp (Voxengo) (8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: TubeDriver (NickCrowLab)",
+    "alias": "",
+    "manufacturer": "NickCrowLab",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx 1176 Rev A Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx 1176AE Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx 1176LN Rev E Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx 175-B Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx 176 Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx A-Type Multiband Enhancer (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx API 2500 Bus Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx API Vision Channel Strip (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Ampex ATR-102 Master Tape (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Avalon VT-737 Channel Strip (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Brigade Chorus (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Capitol Chambers (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Capitol Mastering Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Century Tube Channel Strip (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Dream 65 Reverb Amp (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Empirical Labs Distressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Fairchild 660 Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Fairchild 670 Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Galaxy Tape Echo (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Helios Type 69 Preamp and EQ (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Hitsville EQ (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Hitsville EQ Mastering (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Hitsville Reverb Chambers (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx LA-2 Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx LA-2A Gray Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx LA-2A Silver Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx LA-2A Tube Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx LA-3A Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx LA-6176 Channel Strip (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Lexicon 224 Digital Reverb (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Lion 68 Super Lead Amp (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Manley Massive Passive EQ (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Manley Massive Passive MST (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Manley Tube Preamp (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Manley VOXBOX Channel Strip (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Manley Variable Mu Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Neve 1073 Preamp and EQ (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Oxide Tape Recorder (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Pultec EQP-1A EQ (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Pultec HLF-3C EQ (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Pultec MEQ-5 EQ (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Pure Plate Reverb (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Ruby 63 Top Boost Amp (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx SSL E Channel Strip (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx SSL G Bus Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Showtime 64 Tube Amp (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Sound City Studios (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Studer A800 Tape Recorder (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Studio D Chorus (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Topline Key Finder (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Topline Vocal Suite (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Verve Analog Machines (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Verve Analog Machines Essentials (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Waterfall Rotary Speaker (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx Woodrow 55 Instrument Amp (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UADx dbx 160 Compressor (Universal Audio (UADx))",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UM225 Stereo/5.0 (Waves) (2->5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UM226 Stereo/5.1 (Waves) (2->6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: USC II Calibration (OLLO Audio)",
+    "alias": "",
+    "manufacturer": "OLLO Audio",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UltraPitch 3 Voices Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UltraPitch 3 Voices Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UltraPitch 6 Voices Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UltraPitch 6 Voices Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UltraPitch Shift Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: UltraPitch Shift Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Bass Mint (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Byome (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Dent 2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Fault (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio G8 (Plugin Alliance) (4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Indent 2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Instant Delay (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Needlepoint (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Sandman (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Sandman Pro (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Silo (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio SpecOps (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Tails (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Triad (Plugin Alliance) (4->8ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio Zip (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Unfiltered Audio lo-fi-af (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VComp Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VComp Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VEQ3 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VEQ3 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VEQ4 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VEQ4 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VU Meter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VU Meter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vertigo VSC-2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vertigo VSM-3 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vitamin Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vitamin Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: VocAlign 6 Pro VST (Synchro Arts) (mono)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vocal Bender Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vocal Bender Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vocal Rider Live Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vocal Rider Live Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vocal Rider Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Vocal Rider Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Volcano 3 (FabFilter)",
+    "alias": "",
+    "manufacturer": "FabFilter",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Voltage Amps Bass Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Voltage Amps Bass Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Voltage Amps Bass Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Voltage Amps Guitar Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Voltage Amps Guitar Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Voltage Amps Guitar Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: W43 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: W43 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Meter 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Meter 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Meter Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Meter Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Plus 5.0 (Waves) (5ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Plus 5.1 (Waves) (6ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Plus Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WLM Plus Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WNS Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WNS Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: WagnerSharp (NickCrowLab)",
+    "alias": "",
+    "manufacturer": "NickCrowLab",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Gemstones Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Gemstones Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Harmony Mono/Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Harmony Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Stream Receive Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Stream Receive Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Stream Send Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Stream Send Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Tune LT Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Tune LT Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Tune Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Tune Real-Time Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Tune Real-Time Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Waves Tune Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Click Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Click Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Crackle Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Crackle Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-FDBK Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-FDBK Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Hum Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Hum Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Noise Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: X-Noise Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Z-Noise Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: Z-Noise Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_2098 EQ (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_XL V3 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_bassdude (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_blackdist2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_bluechorus2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "delay modulation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_boom (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_cleansweep Pro (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_cleansweep V2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_clipper (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_console AMEK 200 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_console AMEK 9099 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_console Focusrite SC (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_console N (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_console SSL 4000 G (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_console SSL 9000 J (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_control V2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_crispyscale (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_crispytuner (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_delay2500 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "delay",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_digital V3 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_digital V3 mix (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_distorange (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_dynEQ V2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_dynEQ V2 Mono (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_enhancer (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_glue (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_greenscreamer (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_hybrid V2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_hybrid V2 mix (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_limiter (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_limiter True Peak (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_masterdesk (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_masterdesk Classic (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_masterdesk Pro (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_masterdesk True Peak (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_megadual (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_megasingle (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_metal2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_meter (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_opto (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_opto Pedal (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_panEQ (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_refinement (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_rockergain100 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_rockrack V3 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_rockrack V3 Player (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_rooMS (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "reverb",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_saturator V2 (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "saturation",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_shredspread (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_solo (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_stereomaker (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_subfilter (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_subsynth (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_townhouse Buss Compressor (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_tuner (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: bx_yellowdrive (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: dbx-160 Mono (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: dbx-160 Stereo (Waves)",
+    "alias": "",
+    "manufacturer": "Waves",
+    "tags": "comp",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: dearVR music (Plugin Alliance) (2->4ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: dearVR pro (Plugin Alliance) (2->16ch)",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia alpha master (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia alpha mix (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia karacter master (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia karacter mix (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia mpressor (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia museq master (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia museq mix (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia niveau filter (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia nvelope (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: elysia phils cascade (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: fiedler audio stage (Plugin Alliance)",
+    "alias": "",
+    "manufacturer": "Plugin Alliance",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: preFIX (Variety Of Sound)",
+    "alias": "",
+    "manufacturer": "Variety Of Sound",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "VST3: soothe2 (oeksound)",
+    "alias": "",
+    "manufacturer": "oeksound",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "Waves_StudioRack_for_OBS.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "WebView2Loader.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": true
+  },
+  {
+    "real_name": "anymixPro.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "bx_console_SSL_4000_E.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "helgobox_x64.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "reaeq.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "eq",
+    "deleted": false
+  },
+  {
+    "real_name": "reagate.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "gate",
+    "deleted": false
+  },
+  {
+    "real_name": "reaper_csurf_mcu_klinke_b_x64.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "reaper_csurf_mcu_klinke_x64.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "reasamplomatic.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "reasyndr.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "reasynth.dll",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "instrument",
+    "deleted": false
+  },
+  {
+    "real_name": "uaudio_anthem.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "uaudio_electra.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "uaudio_minimoog.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "uaudio_opal.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "uaudio_polymax.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "uaudio_ravel.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  },
+  {
+    "real_name": "uaudio_waterfall_b3.vst3",
+    "alias": "",
+    "manufacturer": "",
+    "tags": "inconnu",
+    "deleted": false
+  }
+]
