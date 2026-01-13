@@ -1260,12 +1260,13 @@ local function loop()
                     if r.ImGui_BeginTable(ctx, 'EditTable', 5, 
                         r.ImGui_TableFlags_Borders() + 
                         r.ImGui_TableFlags_RowBg() + 
+                        r.ImGui_TableFlags_Resizable() + -- Colonnes redimensionnables
                         r.ImGui_TableFlags_ScrollY()) then
                         
                         r.ImGui_TableSetupColumn(ctx, 'Nom Réel', r.ImGui_TableColumnFlags_WidthStretch())
                         r.ImGui_TableSetupColumn(ctx, 'Alias', r.ImGui_TableColumnFlags_WidthFixed(), 120)
                         r.ImGui_TableSetupColumn(ctx, 'Éditeur', r.ImGui_TableColumnFlags_WidthFixed(), 150)
-                        r.ImGui_TableSetupColumn(ctx, 'Tags', r.ImGui_TableColumnFlags_WidthFixed(), 150)
+                        r.ImGui_TableSetupColumn(ctx, 'Tags', r.ImGui_TableColumnFlags_WidthStretch()) -- Prend la place dispo
                         r.ImGui_TableSetupColumn(ctx, 'X', r.ImGui_TableColumnFlags_WidthFixed(), 30)
                         r.ImGui_TableHeadersRow(ctx)
                         
@@ -1299,7 +1300,7 @@ local function loop()
                                 end
                                 
                                 -- 2. Bouton Popup (liste existants)
-                                r.ImGui_SameLine(ctx)
+                                r.ImGui_SameLine(ctx, 0, 0)
                                 if r.ImGui_ArrowButton(ctx, '##open_mfr_'..i, r.ImGui_Dir_Down()) then
                                     r.ImGui_OpenPopup(ctx, 'mfr_popup_'..i)
                                 end
@@ -1403,12 +1404,18 @@ local function loop()
                                 
                                 -- Actions
                                 r.ImGui_TableSetColumnIndex(ctx, 4)
+                                -- Bouton Supprimer en ROUGE
+                                r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), 0xAA0000FF)
+                                r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), 0xFF0000FF)
+                                r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), 0x880000FF)
+                                
                                 if r.ImGui_Button(ctx, "X##" .. i, -1) then
                                     plugin.deleted = true -- Soft delete
                                     save_database()
                                     need_filter_update = true
                                     need_stats_update = true
                                 end
+                                r.ImGui_PopStyleColor(ctx, 3)
                             end
                         end
                         
