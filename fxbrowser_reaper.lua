@@ -62,8 +62,14 @@ local function pop_modern_theme()
 end
 
 -- Génération de couleurs pseudo-aléatoires pour les tags (basée sur le nom du tag)
+local custom_colors = {} -- Couleurs personnalisées chargées depuis le JSON
 local tag_colors = {}
 local function get_tag_color(tag_name)
+    -- 1. Priorité à la couleur personnalisée
+    if custom_colors[tag_name] then
+        return custom_colors[tag_name]
+    end
+
     if tag_colors[tag_name] then
         return tag_colors[tag_name]
     end
@@ -76,8 +82,8 @@ local function get_tag_color(tag_name)
     
     -- Convertir HSV en RGB (couleurs foncées pour lisibilité du texte blanc)
     local h = hash / 360
-    local s = 0.7    -- Saturation élevée
-    local v = 0.55   -- Luminosité réduite pour que le texte blanc soit lisible
+    local s = 0.5    -- Saturation réduite (plus gris)
+    local v = 0.5    -- Luminosité réduite (plus sombre)
     
     local r_val, g_val, b_val
     local i = math.floor(h * 6)
@@ -104,9 +110,158 @@ local function get_tag_color(tag_name)
     return color
 end
 
+local function darken_color(color, amount)
+    local r = (color >> 24) & 0xFF
+    local g = (color >> 16) & 0xFF
+    local b = (color >> 8) & 0xFF
+    local a = color & 0xFF
+    
+    r = math.max(0, r - amount)
+    g = math.max(0, g - amount)
+    b = math.max(0, b - amount)
+    
+    return (r << 24) + (g << 16) + (b << 8) + a
+end
+
 -- --- CONFIGURATION ---
 local script_path = debug.getinfo(1, "S").source:match("^@?(.*[/\\])") or ""
 local db_file = script_path .. "fxbrowser_database.json"
+local colors_file = script_path .. "fxbrowser_colors.json"
+local config_file = script_path .. "fxbrowser_config.json"
+
+-- --- CONFIGURATION GLOBALE ---
+local config = {
+    language = "EN" -- Default to English as requested
+}
+
+local function save_config()
+    local file = io.open(config_file, "w")
+    if file then
+        file:write('{\n  "language": "' .. config.language .. '"\n}')
+        file:close()
+    end
+end
+
+local function load_config()
+    local file = io.open(config_file, "r")
+    if file then
+        local content = file:read("*all")
+        file:close()
+        local lang = content:match('"language":%s*"([^"]+)"')
+        if lang then config.language = lang end
+    end
+end
+load_config() -- Charger au démarrage
+
+-- --- TRADUCTIONS ---
+local translations = {
+    EN = {
+        settings = "Settings",
+        back = "Back",
+        search_hint = "Search (name, alias, tags)...",
+        filter_hint = "Filter...",
+        type_col = "Type",
+        mfr_col = "Developer",
+        results_col = "Results",
+        real_name_col = "Real Name",
+        alias_col = "Alias",
+        tags_col = "Tags",
+        all_btn = "All",
+        click_hint = "Click on an FX to add it",
+        no_plugin_found = "No plugin found",
+        no_result = "No result",
+        more_results = "... and %d other results",
+        import_btn = "➕ Import Track FX",
+        update_btn = "↻ Update",
+        reset_btn = "⚠️ Reset",
+        trash_btn = "♻️ Trash",
+        import_tooltip = "Adds all FX from selected track.\nUseful for Waves plugins etc.",
+        update_tooltip = "Quick Scan: Adds new plugins without touching existing tags.",
+        reset_tooltip = "Full Scan: WIPES ALL tags/aliases and rebuilds database.",
+        trash_tooltip = "View and restore deleted plugins.",
+        reset_modal_title = "Reset Database",
+        reset_warning = "WARNING: This will delete ALL your custom tags and aliases.\nThe database will be rebuilt from scratch.\n\nAre you sure?",
+        yes_reset = "YES, wipe everything",
+        cancel = "Cancel",
+        scan_progress = "⏳ Scanning, please wait...",
+        pick_color = "Pick a color:",
+        reset_color = "Reset",
+        add_tag = "Add Tag :",
+        existing = "Existing:",
+        restore = "Restore",
+        empty_trash = "Empty Trash",
+        trash_title = "Recycle Bin",
+        trash_empty = "Trash is empty",
+        restore_all = "Restore All",
+        delete_permanent = "Delete Permanently",
+        confirm_empty = "Empty trash? This cannot be undone.",
+        open_mfr_popup = "Select Manufacturer",
+        scan_imported = "✓ %d FX imported from track",
+        scan_no_track = "✗ No track selected",
+        scan_update_done = "✓ Database updated",
+        scan_reset_done = "✓ Database reset: %d plugins found",
+        scan_error_save = "✗ Error: cannot save file",
+        no_db = "⚠ No database found (please scan)",
+        btn_add = "Add",
+        db_saved = "✓ Database saved (%d plugins)",
+        db_loaded = "✓ Database loaded: %d plugins"
+    },
+    FR = {
+        settings = "Paramètres",
+        back = "Retour",
+        search_hint = "Recherche (nom, alias, tags)...",
+        filter_hint = "Filtrer...",
+        type_col = "Type d'effet",
+        mfr_col = "Éditeur",
+        results_col = "Résultats",
+        real_name_col = "Nom Réel",
+        alias_col = "Alias",
+        tags_col = "Tags",
+        all_btn = "Tous",
+        click_hint = "Cliquez sur un FX pour l'ajouter",
+        no_plugin_found = "Aucun plugin trouvé",
+        no_result = "Aucun résultat",
+        more_results = "... et %d autres résultats",
+        import_btn = "➕ Importer FX piste",
+        update_btn = "↻ Mettre à jour",
+        reset_btn = "⚠️ Reset",
+        trash_btn = "♻️ Corbeille",
+        import_tooltip = "Ajoute tous les FX de la piste sélectionnée à la base de données.\nUtile pour les plugins Waves et autres non détectés par le scan.",
+        update_tooltip = "Scan rapide : Ajoute les nouveaux plugins sans toucher à vos tags existants.",
+        reset_tooltip = "Scan complet : EFFACE TOUT (tags, alias) et reconstruit la base à zéro.",
+        trash_tooltip = "Voir et restaurer les plugins supprimés.",
+        reset_modal_title = "Réinitialiser la base",
+        reset_warning = "ATTENTION : Cette opération va effacer TOUS vos tags et alias personnalisés.\nLa base de données sera entièrement reconstruite.\n\nVoulez-vous vraiment continuer ?",
+        yes_reset = "OUI, tout effacer",
+        cancel = "Annuler",
+        scan_progress = "⏳ Scan en cours, veuillez patienter...",
+        pick_color = "Choisir une couleur :",
+        reset_color = "Réinitialiser",
+        add_tag = "Ajouter un tag :",
+        existing = "Existant :",
+        restore = "Restaurer",
+        empty_trash = "Vider la corbeille",
+        trash_title = "Corbeille",
+        trash_empty = "La corbeille est vide",
+        restore_all = "Tout restaurer",
+        delete_permanent = "Supprimer définitivement",
+        confirm_empty = "Vider la corbeille ? Cette action est irréversible.",
+        open_mfr_popup = "Sélectionner un éditeur",
+        scan_imported = "✓ %d FX importés depuis la piste",
+        scan_no_track = "✗ Aucune piste sélectionnée",
+        scan_update_done = "✓ Base mise à jour",
+        scan_reset_done = "✓ Base réinitialisée : %d plugins trouvés",
+        scan_error_save = "✗ Erreur : impossible de sauvegarder le fichier",
+        no_db = "⚠ Aucune base existante (créez-en une avec le scanner)",
+        btn_add = "Ajouter",
+        db_saved = "✓ Base de données sauvegardée (%d plugins)",
+        db_loaded = "✓ Base chargée : %d plugins"
+    }
+}
+
+local function tr(key)
+    return translations[config.language][key] or key
+end
 
 -- --- VARIABLES GLOBALES ---
 local db = {}
@@ -133,8 +288,8 @@ local show_recycle_bin = false -- Flag pour la corbeille
 
 -- Listes pour catégoriser les tags
 local effect_type_tags = {
-    "eq", "comp", "reverb", "delay", "saturation", "modulation", 
-    "gate", "instrument", "filter", "pitch", "utility", "analyzer", "inconnu"
+    "EQ", "Comp", "Reverb", "Delay", "Saturation", "Modulation", 
+    "Gate", "Instrument", "Filter", "Pitch", "Utility", "Analyzer"
 }
 
 local manufacturer_tags = {
@@ -214,10 +369,10 @@ local function save_database()
     if file then
         file:write(table_to_json(db))
         file:close()
-        scan_message = "✓ Base de données sauvegardée (" .. #db .. " plugins)"
+        scan_message = tr("db_saved"):format(#db)
         return true
     else
-        scan_message = "✗ Erreur : impossible de sauvegarder le fichier"
+        scan_message = tr("scan_error_save")
         return false
     end
 end
@@ -228,15 +383,45 @@ local function load_database()
         local content = file:read("*all")
         file:close()
         db = json_to_table(content)
-        scan_message = "✓ Base chargée : " .. #db .. " plugins"
+        scan_message = tr("db_loaded"):format(#db)
         need_filter_update = true
         need_stats_update = true
         return true
     else
-        scan_message = "⚠ Aucune base existante (créez-en une avec le scanner)"
+        scan_message = tr("no_db")
         return false
     end
 end
+
+-- --- COULEURS PERSONNALISÉES ---
+local function save_custom_colors()
+    local file = io.open(colors_file, "w")
+    if file then
+        file:write("{\n")
+        local items = {}
+        for k, v in pairs(custom_colors) do
+            -- Échapper les guillemets dans les clés si nécessaire (simple ici)
+            table.insert(items, string.format('  "%s": %d', k, v))
+        end
+        file:write(table.concat(items, ",\n"))
+        file:write("\n}")
+        file:close()
+    end
+end
+
+local function load_custom_colors()
+    local file = io.open(colors_file, "r")
+    if file then
+        local content = file:read("*all")
+        file:close()
+        for k, v in content:gmatch('"([^"]+)":%s*(%d+)') do
+            custom_colors[k] = tonumber(v)
+        end
+    end
+end
+
+-- Charger les couleurs au démarrage (immédiatement)
+load_custom_colors()
 
 -- Fonction pour obtenir la priorité d'un type de plugin
 local function get_plugin_priority(fx_name)
@@ -394,7 +579,7 @@ local function auto_detect_tags(fx_name)
     }
     for _, keyword in ipairs(eq_keywords) do
         if name_lower:match(keyword) then
-            table.insert(tags, "eq")
+            table.insert(tags, "EQ")
             break
         end
     end
@@ -408,7 +593,7 @@ local function auto_detect_tags(fx_name)
     }
     for _, keyword in ipairs(comp_keywords) do
         if name_lower:match(keyword) then
-            table.insert(tags, "comp")
+            table.insert(tags, "Comp")
             break
         end
     end
@@ -421,7 +606,7 @@ local function auto_detect_tags(fx_name)
     }
     for _, keyword in ipairs(reverb_keywords) do
         if name_lower:match(keyword) then
-            table.insert(tags, "reverb")
+            table.insert(tags, "Reverb")
             break
         end
     end
@@ -434,7 +619,7 @@ local function auto_detect_tags(fx_name)
     }
     for _, keyword in ipairs(delay_keywords) do
         if name_lower:match(keyword) then
-            table.insert(tags, "delay")
+            table.insert(tags, "Delay")
             break
         end
     end
@@ -443,31 +628,28 @@ local function auto_detect_tags(fx_name)
     -- Saturation/Distortion
     if name_lower:match("satur") or name_lower:match("distort") or 
        name_lower:match("overdrive") or name_lower:match("dirt") then
-        table.insert(tags, "saturation")
+        table.insert(tags, "Saturation")
     end
     
     -- Modulation (Chorus, Flanger, Phaser)
     if name_lower:match("chorus") or name_lower:match("flanger") or 
        name_lower:match("phaser") or name_lower:match("vibrato") then
-        table.insert(tags, "modulation")
+        table.insert(tags, "Modulation")
     end
     
     -- Gate/Expander
     if name_lower:match("gate") or name_lower:match("expander") then
-        table.insert(tags, "gate")
+        table.insert(tags, "Gate")
     end
     
     -- Synth/Instrument
     if name_lower:match("synth") or name_lower:match("vsti") or 
        name_lower:match("instrument") or name_lower:match("piano") or
        name_lower:match("drum") then
-        table.insert(tags, "instrument")
+        table.insert(tags, "Instrument")
     end
     
-    -- Si aucun tag détecté, ajouter "inconnu"
-    if #tags == 0 then
-        table.insert(tags, "inconnu")
-    end
+    -- Si aucun tag détecté, on laisse vide (pas de tag "inconnu")
     
     -- Retourner les tags ET le manufacturer séparément
     return table.concat(tags, " "), detected_manufacturer
@@ -657,6 +839,26 @@ local function scan_fx_reset()
     end)
 end
 
+-- --- FONCTIONS UITILITAIRES ---
+local function clean_plugin_name(name)
+    -- 1. Supprimer les préfixes (VST:, JS:, etc.)
+    -- On cible spécifiquement les formats connus pour éviter de casser des noms légitimes
+    name = name:gsub("^VST3?i?:%s*", "")
+    name = name:gsub("^JS:%s*", "")
+    name = name:gsub("^AUi?:%s*", "")
+    name = name:gsub("^CLAPi?:%s*", "")
+    name = name:gsub("^LV2i?:%s*", "")
+    name = name:gsub("^DXi?:%s*", "")
+    
+    -- 2. Supprimer les extensions de fichier (insensible à la casse basique)
+    name = name:gsub("%.[vV][sS][tT]3?$", "")
+    name = name:gsub("%.[dD][lL][lL]$", "")
+    name = name:gsub("%.[jJ][sS][fF][xX]$", "")
+    name = name:gsub("%.[cC][lL][aA][pP]$", "")
+    
+    return name
+end
+
 -- --- FONCTIONS INTERFACE ---
 local function add_fx(name, alias)
     local track = r.GetSelectedTrack(0, 0)
@@ -826,6 +1028,7 @@ local function update_global_stats()
 end
 
 -- Fonction pour vérifier si un plugin correspond aux tags sélectionnés
+local show_settings = false
 local function match_selected_tags(plugin)
     -- Vérifier s'il y a des sélections dans chaque catégorie
     local has_effect_selection = false
@@ -907,24 +1110,52 @@ local function loop()
 
         
         -- Message de statut
+        -- Mise à jour des caches si nécessaire
+        if need_stats_update then update_global_stats() end
+        if need_filter_update then update_filtered_list() end
+        
+        -- HEADER BAR : Status + Bouton
+        local btn_w = 125
+        local combo_w = 50
+        local btn_x = r.ImGui_GetWindowWidth(ctx) - btn_w - 25
+        local combo_x = btn_x - combo_w - 10
+        
+        -- Afficher le message de scan s'il existe
         if scan_message ~= "" then
             r.ImGui_TextColored(ctx, 0x00FF00FF, scan_message)
+            -- Si le message est trop long, on risque de chevaucher.
+            -- On pourrait vérifier la position curseur.
+            if r.ImGui_GetCursorPosX(ctx) < combo_x then
+               r.ImGui_SameLine(ctx, combo_x)
+            else
+               r.ImGui_NewLine(ctx)
+               r.ImGui_SameLine(ctx, combo_x)
+            end
+        else
+            -- Sinon positionner le curseur direct à droite
+            r.ImGui_SetCursorPosX(ctx, combo_x)
+        end
+        
+        -- Selecteur de langue
+        r.ImGui_SetNextItemWidth(ctx, combo_w)
+        if r.ImGui_BeginCombo(ctx, "##lang", config.language, r.ImGui_ComboFlags_NoArrowButton()) then
+            if r.ImGui_Selectable(ctx, "EN", config.language == "EN") then config.language = "EN"; save_config() end
+            if r.ImGui_Selectable(ctx, "FR", config.language == "FR") then config.language = "FR"; save_config() end
+            r.ImGui_EndCombo(ctx)
+        end
+        if r.ImGui_IsItemHovered(ctx) then r.ImGui_SetTooltip(ctx, tr("choose_lang")) end
+        
+        r.ImGui_SameLine(ctx)
+        
+        -- Bouton Paramètres / Retour
+        if r.ImGui_Button(ctx, show_settings and tr("back") or tr("settings"), btn_w) then
+            show_settings = not show_settings
         end
         
         r.ImGui_Separator(ctx)
         
-        r.ImGui_Separator(ctx)
-        
-        -- Mise à jour des caches si nécessaire (lazy update)
-        -- Placé ici pour être actif quel que soit l'onglet
-        if need_stats_update then update_global_stats() end
-        if need_filter_update then update_filtered_list() end
-        
-        -- Onglets
-        if r.ImGui_BeginTabBar(ctx, 'TabBar') then
-            
-            -- ONGLET RECHERCHE
-            if r.ImGui_BeginTabItem(ctx, 'Rechercher (' .. #db .. ' FX)') then
+        -- VUE PRINCIPALE (RECHERCHE)
+        if not show_settings then
                 
                 -- Barre de recherche
                 -- Barre de recherche et Tags sélectionnés (Chips)
@@ -935,8 +1166,8 @@ local function loop()
                     has_chips = true
                     local tag_color = get_tag_color(tag_name)
                     r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), tag_color)
-                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), tag_color - 0x202020)
-                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), tag_color + 0x101010)
+                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), darken_color(tag_color, 20)) -- Plus sombre (safe)
+                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), darken_color(tag_color, 40))
                     
                     if r.ImGui_Button(ctx, tag_name .. " x##chip") then
                         selected_effect_types[tag_name] = nil
@@ -956,8 +1187,8 @@ local function loop()
                     has_mfr_chips = true
                     local tag_color = get_tag_color(mfr_name)
                     r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), tag_color)
-                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), tag_color - 0x202020)
-                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), tag_color + 0x101010)
+                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), darken_color(tag_color, 20))
+                    r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), darken_color(tag_color, 40))
                     
                     if r.ImGui_Button(ctx, mfr_name .. " x##mfr_chip") then
                         selected_manufacturers[mfr_name] = nil
@@ -973,7 +1204,7 @@ local function loop()
                 
                 r.ImGui_SetNextItemWidth(ctx, -1)
                 local changed, txt = r.ImGui_InputTextWithHint(ctx, '##Search', 
-                    'Recherche (nom, alias, tags)...', search_text)
+                    tr("search_hint"), search_text)
                 if changed then 
                     search_text = txt 
                     need_filter_update = true
@@ -989,19 +1220,19 @@ local function loop()
                 -- Layout avec Table (3 colonnes) - SCROLLABLE AREA
                 if r.ImGui_BeginChild(ctx, "SearchScrollArea") then
                     if r.ImGui_BeginTable(ctx, 'SearchLayout', 3) then
-                    r.ImGui_TableSetupColumn(ctx, 'TypeEffet', r.ImGui_TableColumnFlags_WidthFixed(), 140)
-                    r.ImGui_TableSetupColumn(ctx, 'Editeur', r.ImGui_TableColumnFlags_WidthFixed(), 140)
-                    r.ImGui_TableSetupColumn(ctx, 'Results', r.ImGui_TableColumnFlags_WidthStretch())
+                    r.ImGui_TableSetupColumn(ctx, tr("type_col"), r.ImGui_TableColumnFlags_WidthFixed(), 140)
+                    r.ImGui_TableSetupColumn(ctx, tr("results_col"), r.ImGui_TableColumnFlags_WidthStretch())
+                    r.ImGui_TableSetupColumn(ctx, tr("mfr_col"), r.ImGui_TableColumnFlags_WidthFixed(), 140)
                     
                     r.ImGui_TableNextRow(ctx)
                     
                     -- COLONNE 1 : Types d'effets
                     r.ImGui_TableSetColumnIndex(ctx, 0)
-                    r.ImGui_Text(ctx, "�️ Type d'effet")
+                    r.ImGui_Text(ctx, "🧩 " .. tr("type_col"))
                     r.ImGui_Separator(ctx)
                     
                     -- Bouton "Tous" pour types
-                    if r.ImGui_Button(ctx, "Tous##types", -1) then
+                    if r.ImGui_Button(ctx, tr("all_btn") .. "##types", -1) then
                         selected_effect_types = {}
                         need_filter_update = true
                         sort_lists() -- Re-trier pour remettre l'ordre par défaut
@@ -1017,8 +1248,8 @@ local function loop()
                         if not is_selected then
                             local tag_color = get_tag_color(tag_info.name)
                             r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), tag_color)
-                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), tag_color - 0x202020)
-                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), tag_color + 0x101010)
+                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), darken_color(tag_color, 20))
+                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), darken_color(tag_color, 40))
                             
                             local label = tag_info.name .. " (" .. tag_info.count .. ")"
                             
@@ -1028,17 +1259,60 @@ local function loop()
                                 sort_lists()
                             end
                             
+                            -- Clic droit pour changer la couleur
+                            if r.ImGui_IsItemClicked(ctx, r.ImGui_MouseButton_Right()) then
+                                r.ImGui_OpenPopup(ctx, 'color_picker_' .. tag_info.name)
+                            end
+                            
+                            if r.ImGui_BeginPopup(ctx, 'color_picker_' .. tag_info.name) then
+                                r.ImGui_Text(ctx, tr("pick_color"))
+                                r.ImGui_Separator(ctx)
+                                
+                                local palette = {
+                                    0x8B0000FF, 0xA52A2AFF, 0xB22222FF, 0xDC143CFF, 0xCD5C5CFF, 0x8B4513FF, 0xD2691EFF, 0xB8860BFF, -- Rouges/Oranges Sombres
+                                    0x006400FF, 0x228B22FF, 0x2E8B57FF, 0x008080FF, 0x20B2AAFF, 0x556B2FFF, 0x6B8E23FF, 0x808000FF, -- Verts/Olives
+                                    0x00008BFF, 0x0000CDFF, 0x191970FF, 0x483D8BFF, 0x4169E1FF, 0x6A5ACDFF, 0x7B68EEFF, 0x4682B4FF, -- Bleus
+                                    0x4B0082FF, 0x800080FF, 0x8B008BFF, 0x9400D3FF, 0x9932CCFF, 0xC71585FF, 0xD87093FF, 0xDB7093FF, -- Violets/Roses
+                                    0x2F4F4FFF, 0x696969FF, 0x808080FF, 0x708090FF, 0x778899FF, 0xA9A9A9FF, 0x5F9EA0FF, 0xCD0000FF  -- Gris/Divers
+                                }
+                                
+                                local col_count = 0
+                                for _, col in ipairs(palette) do
+                                    r.ImGui_PushID(ctx, col)
+                                    if r.ImGui_ColorButton(ctx, "##col", col, r.ImGui_ColorEditFlags_NoTooltip(), 20, 20) then
+                                        custom_colors[tag_info.name] = col
+                                        save_custom_colors()
+                                        r.ImGui_CloseCurrentPopup(ctx)
+                                    end
+                                    r.ImGui_PopID(ctx)
+                                    
+                                    col_count = col_count + 1
+                                    if col_count % 8 ~= 0 then
+                                        r.ImGui_SameLine(ctx)
+                                    end
+                                end
+                                
+                                r.ImGui_Separator(ctx)
+                                if r.ImGui_Button(ctx, tr("reset_color"), -1) then
+                                    custom_colors[tag_info.name] = nil -- Retour auto
+                                    save_custom_colors()
+                                    r.ImGui_CloseCurrentPopup(ctx)
+                                end
+                                
+                                r.ImGui_EndPopup(ctx)
+                            end
+                            
                             r.ImGui_PopStyleColor(ctx, 3)
                         end
                     end
                     
-                    -- COLONNE 2 : Éditeurs
-                    r.ImGui_TableSetColumnIndex(ctx, 1)
-                    r.ImGui_Text(ctx, "🏭 Éditeur")
+                    -- COLONNE 3 : Éditeurs (Maintenant à droite)
+                    r.ImGui_TableSetColumnIndex(ctx, 2)
+                    r.ImGui_Text(ctx, "🏭 " .. tr("mfr_col"))
                     r.ImGui_Separator(ctx)
                     
                     -- Bouton "Tous" pour éditeurs
-                    if r.ImGui_Button(ctx, "Tous##mfr", -1) then
+                    if r.ImGui_Button(ctx, tr("all_btn") .. "##mfr", -1) then
                         selected_manufacturers = {}
                         need_filter_update = true
                         sort_lists() -- Re-trier pour remettre l'ordre par défaut
@@ -1053,8 +1327,8 @@ local function loop()
                         if not is_selected then
                             local tag_color = get_tag_color(mfr_info.name)
                             r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), tag_color)
-                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), tag_color - 0x202020)
-                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), tag_color + 0x101010)
+                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), darken_color(tag_color, 20))
+                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), darken_color(tag_color, 40))
                             
                             local label = mfr_info.display_name .. " (" .. mfr_info.count .. ")"
                             
@@ -1068,9 +1342,9 @@ local function loop()
                         end
                     end
                     
-                    -- COLONNE 3 : Liste des FX
-                    r.ImGui_TableSetColumnIndex(ctx, 2)
-                    r.ImGui_Text(ctx, "📋 Cliquez sur un FX pour l'ajouter")
+                    -- COLONNE 2 : Liste des FX (Maintenant au milieu)
+                    r.ImGui_TableSetColumnIndex(ctx, 1)
+                    r.ImGui_Text(ctx, "📋 " .. tr("click_hint"))
                     r.ImGui_Separator(ctx)
                     
                     -- Liste des résultats
@@ -1084,7 +1358,7 @@ local function loop()
                     if columns < 1 then columns = 1 end
                     
                     if #filtered_db == 0 then
-                        r.ImGui_TextColored(ctx, 0xFF0000FF, "Aucun plugin trouvé")
+                        r.ImGui_TextColored(ctx, 0xFF0000FF, tr("no_plugin_found"))
                     else
                         local displayed_count = 0
                         for i, plugin in ipairs(filtered_db) do
@@ -1093,18 +1367,38 @@ local function loop()
                                     if displayed_count % columns ~= 0 then r.ImGui_SameLine(ctx) end
                                     
                                     local button_label = plugin.real_name
-                                    if plugin.alias ~= "" then button_label = plugin.alias end
+                                    if plugin.alias ~= "" then 
+                                        button_label = plugin.alias
+                                    else
+                                        button_label = clean_plugin_name(plugin.real_name)
+                                    end
                                     
-                                    if r.ImGui_Button(ctx, button_label .. "##" .. i, 190, 40) then
+                                    -- Couleur basée sur le premier tag
+                                    local first_tag = plugin.tags and plugin.tags:match("%S+")
+                                    local pushed_colors = 0
+                                    
+                                    if first_tag then
+                                        local tag_color = get_tag_color(first_tag)
+                                        r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), tag_color)
+                                        r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), darken_color(tag_color, 20)) -- Plus sombre (safe)
+                                        r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), darken_color(tag_color, 40))
+                                        pushed_colors = 3
+                                    end
+                                    
+                                    if r.ImGui_Button(ctx, button_label .. "##" .. i, 190, 30) then
                                         add_fx(plugin.real_name, plugin.alias)
                                         if r.ImGui_IsKeyDown(ctx, r.ImGui_Mod_Ctrl()) then open = false end
                                     end
                                     
+                                    if pushed_colors > 0 then
+                                        r.ImGui_PopStyleColor(ctx, pushed_colors)
+                                    end
+                                    
                                     if r.ImGui_IsItemHovered(ctx) then
                                         r.ImGui_BeginTooltip(ctx)
-                                        r.ImGui_Text(ctx, "Nom réel: " .. plugin.real_name)
+                                        r.ImGui_Text(ctx, tr("real_name_col") .. ": " .. plugin.real_name)
                                         if plugin.alias ~= "" then
-                                            r.ImGui_Text(ctx, "Alias: " .. plugin.alias)
+                                            r.ImGui_Text(ctx, tr("alias_col") .. ": " .. plugin.alias)
                                         end
                                         if plugin.tags ~= "" then
                                             r.ImGui_Text(ctx, "Tags: " .. plugin.tags)
@@ -1129,17 +1423,14 @@ local function loop()
                     r.ImGui_EndChild(ctx)
                 end
                 
-                r.ImGui_EndTabItem(ctx)
-            end
-            
-            -- ONGLET EDITEUR
-            if r.ImGui_BeginTabItem(ctx, 'Éditeur') then
+        -- VUE PARAMETRES
+        else
                 
                 -- --- BARRE D'OUTILS ---
                 -- Layout horizontal : [Import] [Update] [Reset] [Trash]
                 
                 -- 1. Bouton Import
-                if r.ImGui_Button(ctx, "➕ Importer FX piste") then
+                if r.ImGui_Button(ctx, tr("import_btn")) then
                     local track = r.GetSelectedTrack(0, 0)
                     if track then
                         local fx_count = r.TrackFX_GetCount(track)
@@ -1160,7 +1451,7 @@ local function loop()
                                     local auto_tags, auto_manufacturer = auto_detect_tags(fx_name)
                                     table.insert(db, {
                                         real_name = fx_name,
-                                        alias = "",
+                                        alias = clean_plugin_name(fx_name), -- Auto-clean sur import
                                         manufacturer = auto_manufacturer or "",
                                         tags = auto_tags
                                     })
@@ -1169,71 +1460,70 @@ local function loop()
                             end
                         end
                         save_database()
-                        scan_message = "✓ " .. imported .. " FX importés depuis la piste"
+                        scan_message = tr("scan_imported"):format(imported)
                         need_filter_update = true
                         need_stats_update = true
                     else
-                        scan_message = "✗ Aucune piste sélectionnée"
+                        scan_message = tr("scan_no_track")
                     end
                 end
                 if r.ImGui_IsItemHovered(ctx) then
                     r.ImGui_BeginTooltip(ctx)
-                    r.ImGui_Text(ctx, "Ajoute tous les FX de la piste sélectionnée à la base de données.")
-                    r.ImGui_Text(ctx, "Utile pour les plugins Waves et autres non détectés par le scan.")
+                    r.ImGui_Text(ctx, tr("import_tooltip"))
                     r.ImGui_EndTooltip(ctx)
                 end
                 
                 r.ImGui_SameLine(ctx)
                 
                 -- 2. Bouton Update
-                if r.ImGui_Button(ctx, "↻ Mettre à jour") then
+                if r.ImGui_Button(ctx, tr("update_btn")) then
                      if not scan_in_progress then
                         scan_fx_update()
                     end
                 end
                 if r.ImGui_IsItemHovered(ctx) then
                     r.ImGui_BeginTooltip(ctx)
-                    r.ImGui_Text(ctx, "Scan rapide : Ajoute les nouveaux plugins sans toucher à vos tags existants.")
+                    r.ImGui_Text(ctx, tr("update_tooltip"))
                     r.ImGui_EndTooltip(ctx)
                 end
                 
                 r.ImGui_SameLine(ctx)
                 
                 -- 3. Bouton Reset
-                if r.ImGui_Button(ctx, "⚠️ Reset") then
+                if r.ImGui_Button(ctx, tr("reset_btn")) then
                     r.ImGui_OpenPopup(ctx, "ResetCallback")
                 end
                 if r.ImGui_IsItemHovered(ctx) then
                     r.ImGui_BeginTooltip(ctx)
-                    r.ImGui_Text(ctx, "Scan complet : EFFACE TOUT (tags, alias) et reconstruit la base à zéro.")
+                    r.ImGui_Text(ctx, tr("reset_tooltip"))
                     r.ImGui_EndTooltip(ctx)
                 end
                 
                 r.ImGui_SameLine(ctx)
                 
                 -- 4. Bouton Corbeille
-                if r.ImGui_Button(ctx, "♻️ Corbeille") then
+                if r.ImGui_Button(ctx, tr("trash_btn")) then
                    show_recycle_bin = true
                 end
                 if r.ImGui_IsItemHovered(ctx) then
                     r.ImGui_BeginTooltip(ctx)
-                    r.ImGui_Text(ctx, "Voir et restaurer les plugins supprimés.")
+                    r.ImGui_Text(ctx, tr("trash_tooltip"))
                     r.ImGui_EndTooltip(ctx)
                 end
                 
                 -- Popup de confirmation pour le Reset
                 if r.ImGui_BeginPopupModal(ctx, "ResetCallback", true, r.ImGui_WindowFlags_AlwaysAutoResize()) then
-                    r.ImGui_Text(ctx, "ATTENTION : Cette opération va effacer TOUS vos tags et alias personnalisés.\nLa base de données sera entièrement reconstruite.\n\nVoulez-vous vraiment continuer ?")
+                    r.ImGui_Text(ctx, tr("reset_warning"))
                     r.ImGui_Separator(ctx)
                     
-                    if r.ImGui_Button(ctx, "OUI, tout effacer", 120) then
+                    if r.ImGui_Button(ctx, tr("yes_reset"), 120) then
                         scan_fx_reset()
                         r.ImGui_CloseCurrentPopup(ctx)
                     end
                     
                     r.ImGui_SameLine(ctx)
                     
-                    if r.ImGui_Button(ctx, "Annuler", 120) then
+                    if r.ImGui_Button(ctx, tr("cancel"), 120) then
                         r.ImGui_CloseCurrentPopup(ctx)
                     end
                     
@@ -1241,16 +1531,16 @@ local function loop()
                 end
                 
                 if scan_in_progress then
-                    r.ImGui_TextColored(ctx, 0xFFFF00FF, "⏳ Scan en cours, veuillez patienter...")
+                    r.ImGui_TextColored(ctx, 0xFFFF00FF, tr("scan_progress"))
                 end
                 
                 r.ImGui_Separator(ctx)
                 
                 -- Filtre
-                r.ImGui_Text(ctx, "Filtrer :")
+                r.ImGui_Text(ctx, tr("filter_hint") .. ":")
                 r.ImGui_SameLine(ctx)
                 r.ImGui_SetNextItemWidth(ctx, 200)
-                local filter_changed, filter_text = r.ImGui_InputTextWithHint(ctx, '##Filter', 'Filtrer...', search_text)
+                local filter_changed, filter_text = r.ImGui_InputTextWithHint(ctx, '##Filter', tr("filter_hint"), search_text)
                 if filter_changed then search_text = filter_text end
                 
                 r.ImGui_Separator(ctx)
@@ -1263,10 +1553,10 @@ local function loop()
                         r.ImGui_TableFlags_Resizable() + -- Colonnes redimensionnables
                         r.ImGui_TableFlags_ScrollY()) then
                         
-                        r.ImGui_TableSetupColumn(ctx, 'Nom Réel', r.ImGui_TableColumnFlags_WidthStretch())
-                        r.ImGui_TableSetupColumn(ctx, 'Alias', r.ImGui_TableColumnFlags_WidthFixed(), 120)
-                        r.ImGui_TableSetupColumn(ctx, 'Éditeur', r.ImGui_TableColumnFlags_WidthFixed(), 150)
-                        r.ImGui_TableSetupColumn(ctx, 'Tags', r.ImGui_TableColumnFlags_WidthStretch()) -- Prend la place dispo
+                        r.ImGui_TableSetupColumn(ctx, tr("real_name_col"), r.ImGui_TableColumnFlags_WidthStretch())
+                        r.ImGui_TableSetupColumn(ctx, tr("alias_col"), r.ImGui_TableColumnFlags_WidthFixed(), 120)
+                        r.ImGui_TableSetupColumn(ctx, tr("mfr_col"), r.ImGui_TableColumnFlags_WidthFixed(), 150)
+                        r.ImGui_TableSetupColumn(ctx, tr("tags_col"), r.ImGui_TableColumnFlags_WidthStretch()) -- Prend la place dispo
                         r.ImGui_TableSetupColumn(ctx, 'X', r.ImGui_TableColumnFlags_WidthFixed(), 30)
                         r.ImGui_TableHeadersRow(ctx)
                         
@@ -1291,6 +1581,7 @@ local function loop()
                                 r.ImGui_TableSetColumnIndex(ctx, 2)
                                 
                                 -- 1. Input Text (permet de créer un nouveau)
+                                r.ImGui_PushStyleVar(ctx, r.ImGui_StyleVar_FrameRounding(), 0) -- Fused look
                                 r.ImGui_SetNextItemWidth(ctx, -25) -- Laisser place au bouton
                                 local chg_mfr, new_mfr = r.ImGui_InputText(ctx, '##mfr'..i, plugin.manufacturer or "")
                                 if chg_mfr then 
@@ -1304,6 +1595,7 @@ local function loop()
                                 if r.ImGui_ArrowButton(ctx, '##open_mfr_'..i, r.ImGui_Dir_Down()) then
                                     r.ImGui_OpenPopup(ctx, 'mfr_popup_'..i)
                                 end
+                                r.ImGui_PopStyleVar(ctx)
                                 
                                 -- 3. Popup Liste
                                 if r.ImGui_BeginPopup(ctx, 'mfr_popup_'..i) then
@@ -1328,8 +1620,8 @@ local function loop()
                                     for tag in plugin.tags:gmatch("%S+") do
                                         local tag_color = get_tag_color(tag)
                                         r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), tag_color)
-                                        r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), tag_color - 0x202020)
-                                        r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), tag_color + 0x101010)
+                                        r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), darken_color(tag_color, 20))
+                                        r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), darken_color(tag_color, 40))
                                         
                                         if r.ImGui_Button(ctx, tag .. " x##" .. i .. tag) then
                                             tag_removed = true
@@ -1355,7 +1647,7 @@ local function loop()
                                 
                                 -- 3. Popup Ajout
                                 if r.ImGui_BeginPopup(ctx, 'add_tag_popup_'..i) then
-                                    r.ImGui_Text(ctx, "Ajouter un tag :")
+                                    r.ImGui_Text(ctx, tr("add_tag"))
                                     
                                     -- Input pour nouveau tag personnalisé
                                     local changed, new_custom_tag = r.ImGui_InputText(ctx, '##new_tag_input_'..i, '', r.ImGui_InputTextFlags_EnterReturnsTrue())
@@ -1385,8 +1677,8 @@ local function loop()
                                         if not already_has then
                                             local tag_color = get_tag_color(tag_info.name)
                                             r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Button(), tag_color)
-                                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), tag_color - 0x202020)
-                                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), tag_color + 0x101010)
+                                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonHovered(), darken_color(tag_color, 20))
+                                            r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), darken_color(tag_color, 40))
                                             
                                             if r.ImGui_Button(ctx, tag_info.name .. "##popup_" .. i) then
                                                 plugin.tags = plugin.tags .. " " .. tag_info.name
@@ -1432,10 +1724,6 @@ local function loop()
                 
                 r.ImGui_Separator(ctx)
                 
-                r.ImGui_EndTabItem(ctx)
-            end
-            
-            r.ImGui_EndTabBar(ctx)
         end
         
         if show_added_plugins_popup then

@@ -4,70 +4,64 @@ Un navigateur d'effets (FX) moderne et avancé pour Reaper, conçu pour remplace
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Reaper](https://img.shields.io/badge/Reaper-v6%2B-green.svg) ![Lua](https://img.shields.io/badge/Lua-5.3-blue.svg)
 
+## 🌍 Nouveau : Support Multilingue / Multilingual Support
+L'interface est désormais **traduite en Anglais par défaut**.
+- 🇫🇷 **Français** / 🇺🇸 **English** : Changez la langue instantanément via le sélecteur en haut à droite.
+
 ## ✨ Fonctionnalités Principales
 
 ### 🔍 Recherche Intelligente & Filtrée
+- **Interface à 3 Colonnes** : 
+  1. **Type** (Tags)
+  2. **Résultats** (Liste des Plugins, au centre)
+  3. **Éditeur** (Fabricant)
 - **Recherche Instantanée** : Filtrez par nom, alias ou tags.
-- **Filtres Avancés** : Sélectionnez des **Tags** (Type d'effet) et des **Éditeurs** (Manufacturers).
-- **Navigation par "Chips"** : Les filtres sélectionnés apparaissent sous forme d'étiquettes amovibles au-dessus de la barre de recherche (Sticky Header).
-- **Interface Fluide** : La zone de recherche reste fixée en haut lors du défilement des résultats.
+- **Nettoyage Automatique** : Les préfixes inutiles (`VST:`, `JS:`) et les extensions (`.vst3`, `.dll`) sont masqués automatiquement pour une lecture plus claire.
+- **Navigation par "Chips"** : Les filtres sélectionnés apparaissent au-dessus de la barre de recherche.
 
-### 🏷️ Système de Tagging Puissant (Onglet Éditeur)
-- **Tags Colorés** : Assignez des couleurs uniques à vos tags pour une identification visuelle rapide.
-- **Ajout Rapide** : Ajoutez des tags existants via une liste déroulante ou créez-en de nouveaux à la volée.
-- **Auto-Complétion** : Gestion intelligente des éditeurs (Manufacturers) avec saisie semi-automatique.
+### 🎨 Personnalisation Avancée
+- **Palette de Couleurs** : **Clic-droit** sur un tag dans la colonne de gauche pour lui assigner une couleur personnalisée (sauvegardée).
+- **Auto-Coloration** : Les tags ont des couleurs générées automatiquement par défaut pour une distinction rapide.
+- **Thème Moderne** : Interface sombre, boutons colorés et style épuré.
 
-### 🛠️ Gestion & Organisation
-- **Renommage (Alias)** : Donnez des noms personnalisés à vos plugins sans toucher aux fichiers DLL/VST.
-- **Corbeille (Soft Delete) ♻️** : Supprimez des plugins de la liste sans risque. Ils sont envoyés, peuvent être consultés et restaurés à tout moment.
-- **Suppression Automatique** : Les plugins qui échouent au chargement sont automatiquement déplacés vers la corbeille pour garder votre liste propre.
+### 🛠️ Mode Paramètres (Settings)
+Cliquez sur le bouton **Settings / Paramètres** pour accéder à l'édition :
+- **Renommage (Alias)** : Donnez des noms personnalisés à vos plugins.
+- **Tags Intelligents** : 
+  - Détection automatique (EQ, Comp, Reverb, Delay...).
+  - Ajout/Suppression facile via les boutons.
+- **Éditeur (Manufacturer)** : Liste déroulante ou saisie libre.
+- **Corbeille (Trash) ♻️** : "Soft Delete" pour masquer les plugins sans les supprimer définitivement.
 
-### 💾 Robustesse
-- **Sauvegarde Automatique** : Toutes vos modifications sont sauvegardées à la fermeture du script.
-- **Scan Intelligent** : Mettez à jour votre liste de plugins (`Scannez les nouveaux VST`) sans jamais perdre vos tags et alias existants.
-- **Persistance** : La taille et la position de la fenêtre sont mémorisées.
+### 💾 Robustesse & Maintenance
+- **Sauvegarde Automatique** : Base de données et préférences (taille fenêtre, langue) sauvegardées à la sortie.
+- **Mises à Jour Safe** :
+  - **Update** : Scanne les nouveaux plugins sans toucher à vos tags existants.
+  - **Reset** : Réinitialisation complète (avec avertissement).
+- **Import Piste** : Importez tous les FX d'une piste existante en un clic (utile pour les plugins Waves/Shell).
 
 ## ⚙️ Prérequis
 
 - **Reaper** (v6.0 ou supérieur recommandé)
-- **ReaImGui** : Extension indispensable pour l'interface graphique. (Disponible via ReaPack).
-- **JS_ReaScriptAPI** (Recommandé pour certaines fonctions avancées).
+- **ReaImGui** : Extension indispensable. (Installer via ReaPack).
 
 ## 🚀 Installation
 
-1. Assurez-vous d'avoir installé **ReaPack** et **ReaImGui** dans Reaper.
-2. Copiez le dossier `fxbrowser` dans votre dossier de scripts Reaper :
-   - `Options` -> `Show REAPER resource path in explorer/finder`
-   - Allez dans `Scripts`.
-3. Dans Reaper, ouvrez l'Action List (`?`).
-4. Cliquez sur `New Action` -> `Load ReaScript...`.
-5. Sélectionnez `fxbrowser_reaper.lua`.
-6. (Optionnel) Assignez un raccourci clavier ou ajoutez-le à une barre d'outils.
+1. Installez **ReaImGui** via ReaPack.
+2. Copiez le dossier `fxbrowser` dans votre dossier de scripts Reaper (`Options` -> `Show REAPER resource path` -> `Scripts`).
+3. Dans l'Action List de Reaper, chargez `fxbrowser_reaper.lua`.
 
 ## 📖 Utilisation
 
-### Onglet "Rechercher"
-- Tapez dans la barre pour chercher.
-- Cliquez sur les tags (colonne gauche) ou les éditeurs (colonne milieu) pour filtrer.
-- Les filtres actifs s'affichent en haut. Cliquez dessus pour les retirer.
-- Cliquez sur un plugin dans la liste de droite pour l'ajouter à la piste sélectionnée.
-- **Ctrl + Clic** sur un plugin ferme la fenêtre après l'ajout.
+### Mode Recherche
+- **Clic Gauche** sur un FX : Ajoute le FX à la piste sélectionnée.
+- **Ctrl + Clic** : Ajoute et ferme la fenêtre.
+- **Clic Droit sur un Tag** : Ouvre le sélecteur de couleur.
 
-### Onglet "Éditeur"
-- C'est ici que vous organisez votre collection.
-- **Nom Réel** : Nom original du VST.
-- **Alias** : Changez le nom affiché (cliquez pour éditer).
-- **Éditeur** : Sélectionnez ou tapez le nom du fabricant.
-- **Tags** : 
-    - Cliquez sur `+` pour ajouter un tag.
-    - Cliquez sur les "kapsules" colorées pour supprimer un tag.
-- **Suppression** : Cliquez sur le **X rouge** pour envoyer à la corbeille.
-
-## 🆕 Mises à jour & Maintenance
-
-- **Bouton "Mettre à jour"** : Scanne Reaper pour détecter de nouveaux plugins installés. Vos tags actuels sont préservés.
-- **Bouton "Reset"** : (Attention) Efface toute la base de données et rescanne à zéro. Un avertissement vous protège.
-- **Bouton Corbeille** : Affiche les éléments supprimés pour restauration.
+### Mode Settings
+- **Bouton Import** : Scanne la piste sélectionnée pour ajouter ses FX à la base.
+- **Bouton Update** : Ajoute les nouveaux plugins installés.
+- **Corbeille** : Restaurez les plugins supprimés par erreur.
 
 ---
-*Développé avec ❤️ pour la communauté Reaper.*
+*Développé pour la communauté Reaper.*
